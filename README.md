@@ -6,7 +6,7 @@ Although Codables can be quite complex for large data, it's so far one of the be
 No form builder was used for this app.
 
 # Welcome Screen 
-![alt-text](https://res.cloudinary.com/dyuuulmg0/image/upload/c_scale,w_240/v1561510941/Screen_Shot_2019-06-26_at_01.57.41.png)
+![alt-text](https://res.cloudinary.com/dyuuulmg0/image/upload/c_scale,w_240/v1561510938/Screen_Shot_2019-06-26_at_01.57.22.png)
 
 # Page Two (Toggle Switch Off)
 ![alt-text](https://res.cloudinary.com/dyuuulmg0/image/upload/c_scale,w_240/v1561510940/Screen_Shot_2019-06-26_at_01.57.38.png)
