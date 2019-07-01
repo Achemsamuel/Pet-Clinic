@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17A90FE972D5315131C54928 /* Pods_Pet_Clinic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC1034FB5F286BE1088C94D /* Pods_Pet_Clinic.framework */; };
+		A5361D2322C28852006B8090 /* ButtonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5361D2222C28852006B8090 /* ButtonMethods.swift */; };
+		A5361D2522C2E705006B8090 /* ImageViewSetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5361D2422C2E704006B8090 /* ImageViewSetUp.swift */; };
 		A565B0E622C22BA80054A754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565B0E522C22BA80054A754 /* AppDelegate.swift */; };
-		A565B0E822C22BA80054A754 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565B0E722C22BA80054A754 /* ViewController.swift */; };
+		A565B0E822C22BA80054A754 /* SuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565B0E722C22BA80054A754 /* SuperViewController.swift */; };
 		A565B0EB22C22BA80054A754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A565B0E922C22BA80054A754 /* Main.storyboard */; };
 		A565B0ED22C22BAC0054A754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A565B0EC22C22BAC0054A754 /* Assets.xcassets */; };
 		A565B0F022C22BAC0054A754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A565B0EE22C22BAC0054A754 /* LaunchScreen.storyboard */; };
 		A565B0FB22C22BAC0054A754 /* Pet_ClinicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565B0FA22C22BAC0054A754 /* Pet_ClinicTests.swift */; };
 		A565B10622C22BAC0054A754 /* Pet_ClinicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565B10522C22BAC0054A754 /* Pet_ClinicUITests.swift */; };
+		A565B11A22C22CB10054A754 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565B11922C22CB10054A754 /* Pet.swift */; };
+		A565B11C22C22CC40054A754 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565B11B22C22CC40054A754 /* Page.swift */; };
+		A565B11E22C22CCA0054A754 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565B11D22C22CCA0054A754 /* Section.swift */; };
+		A565B12022C22CD20054A754 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565B11F22C22CD20054A754 /* Element.swift */; };
+		A565B12222C22CDA0054A754 /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565B12122C22CDA0054A754 /* Rule.swift */; };
+		A565B12422C22D030054A754 /* pet_adoption.json in Resources */ = {isa = PBXBuildFile; fileRef = A565B12322C22D030054A754 /* pet_adoption.json */; };
+		A565B12722C22D970054A754 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565B12622C22D970054A754 /* NetworkManager.swift */; };
+		A565B12922C232A90054A754 /* PageOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565B12822C232A90054A754 /* PageOneVC.swift */; };
+		A565B12B22C232B60054A754 /* PageTwoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565B12A22C232B60054A754 /* PageTwoVC.swift */; };
+		A565B12D22C232BE0054A754 /* PageThreeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565B12C22C232BE0054A754 /* PageThreeVC.swift */; };
+		CFF6C898E365373FFDBB6BB8 /* Pods_Pet_ClinicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16A6A672816E84E01166854 /* Pods_Pet_ClinicTests.framework */; };
+		D2DA8C134D973AB9EDBB7570 /* Pods_Pet_ClinicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C521760CD3A5D29E3FF4FEC /* Pods_Pet_ClinicUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B6F9454D2B86B4AE3AF3771 /* Pods-Pet-Clinic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet-Clinic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pet-Clinic/Pods-Pet-Clinic.debug.xcconfig"; sourceTree = "<group>"; };
+		2C521760CD3A5D29E3FF4FEC /* Pods_Pet_ClinicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pet_ClinicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC1034FB5F286BE1088C94D /* Pods_Pet_Clinic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pet_Clinic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5361D2222C28852006B8090 /* ButtonMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMethods.swift; sourceTree = "<group>"; };
+		A5361D2422C2E704006B8090 /* ImageViewSetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewSetUp.swift; sourceTree = "<group>"; };
 		A565B0E222C22BA80054A754 /* Pet-Clinic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pet-Clinic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A565B0E522C22BA80054A754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A565B0E722C22BA80054A754 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A565B0E722C22BA80054A754 /* SuperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperViewController.swift; sourceTree = "<group>"; };
 		A565B0EA22C22BA80054A754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A565B0EC22C22BAC0054A754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A565B0EF22C22BAC0054A754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +67,22 @@
 		A565B10122C22BAC0054A754 /* Pet-ClinicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pet-ClinicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A565B10522C22BAC0054A754 /* Pet_ClinicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet_ClinicUITests.swift; sourceTree = "<group>"; };
 		A565B10722C22BAC0054A754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A565B11922C22CB10054A754 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		A565B11B22C22CC40054A754 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		A565B11D22C22CCA0054A754 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		A565B11F22C22CD20054A754 /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		A565B12122C22CDA0054A754 /* Rule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rule.swift; sourceTree = "<group>"; };
+		A565B12322C22D030054A754 /* pet_adoption.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pet_adoption.json; sourceTree = "<group>"; };
+		A565B12622C22D970054A754 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A565B12822C232A90054A754 /* PageOneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOneVC.swift; sourceTree = "<group>"; };
+		A565B12A22C232B60054A754 /* PageTwoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwoVC.swift; sourceTree = "<group>"; };
+		A565B12C22C232BE0054A754 /* PageThreeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageThreeVC.swift; sourceTree = "<group>"; };
+		B16A6A672816E84E01166854 /* Pods_Pet_ClinicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pet_ClinicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5636F7A55E61ABDB602F8DA /* Pods-Pet-ClinicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet-ClinicUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pet-ClinicUITests/Pods-Pet-ClinicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9C7449F7BC3602FF53CDC83 /* Pods-Pet-ClinicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet-ClinicUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pet-ClinicUITests/Pods-Pet-ClinicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC3258CEA2058F4AFE9BA796 /* Pods-Pet-Clinic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet-Clinic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pet-Clinic/Pods-Pet-Clinic.release.xcconfig"; sourceTree = "<group>"; };
+		EBE512A8FC74549B4016071D /* Pods-Pet-ClinicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet-ClinicTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pet-ClinicTests/Pods-Pet-ClinicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F44D1B9F8C6D7D787537BB9B /* Pods-Pet-ClinicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet-ClinicTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pet-ClinicTests/Pods-Pet-ClinicTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17A90FE972D5315131C54928 /* Pods_Pet_Clinic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFF6C898E365373FFDBB6BB8 /* Pods_Pet_ClinicTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +106,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2DA8C134D973AB9EDBB7570 /* Pods_Pet_ClinicUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4433BDC3BF27341A4E9B4F5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B6F9454D2B86B4AE3AF3771 /* Pods-Pet-Clinic.debug.xcconfig */,
+				DC3258CEA2058F4AFE9BA796 /* Pods-Pet-Clinic.release.xcconfig */,
+				EBE512A8FC74549B4016071D /* Pods-Pet-ClinicTests.debug.xcconfig */,
+				F44D1B9F8C6D7D787537BB9B /* Pods-Pet-ClinicTests.release.xcconfig */,
+				B5636F7A55E61ABDB602F8DA /* Pods-Pet-ClinicUITests.debug.xcconfig */,
+				B9C7449F7BC3602FF53CDC83 /* Pods-Pet-ClinicUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9EB6649F60B051E783C3A84F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AC1034FB5F286BE1088C94D /* Pods_Pet_Clinic.framework */,
+				B16A6A672816E84E01166854 /* Pods_Pet_ClinicTests.framework */,
+				2C521760CD3A5D29E3FF4FEC /* Pods_Pet_ClinicUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A565B0D922C22BA80054A754 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +143,8 @@
 				A565B0F922C22BAC0054A754 /* Pet-ClinicTests */,
 				A565B10422C22BAC0054A754 /* Pet-ClinicUITests */,
 				A565B0E322C22BA80054A754 /* Products */,
+				4433BDC3BF27341A4E9B4F5A /* Pods */,
+				9EB6649F60B051E783C3A84F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +161,14 @@
 		A565B0E422C22BA80054A754 /* Pet-Clinic */ = {
 			isa = PBXGroup;
 			children = (
+				A565B12322C22D030054A754 /* pet_adoption.json */,
 				A565B0E522C22BA80054A754 /* AppDelegate.swift */,
-				A565B0E722C22BA80054A754 /* ViewController.swift */,
 				A565B0E922C22BA80054A754 /* Main.storyboard */,
-				A565B0EC22C22BAC0054A754 /* Assets.xcassets */,
+				A565B11522C22C000054A754 /* PetModel */,
+				A565B11822C22C450054A754 /* View */,
+				A565B11722C22C370054A754 /* ViewModel */,
+				A565B11622C22C280054A754 /* Controllers */,
+				A565B12522C22D7C0054A754 /* Helpers */,
 				A565B0EE22C22BAC0054A754 /* LaunchScreen.storyboard */,
 				A565B0F122C22BAC0054A754 /* Info.plist */,
 			);
@@ -125,6 +193,54 @@
 			path = "Pet-ClinicUITests";
 			sourceTree = "<group>";
 		};
+		A565B11522C22C000054A754 /* PetModel */ = {
+			isa = PBXGroup;
+			children = (
+				A565B11922C22CB10054A754 /* Pet.swift */,
+				A565B11B22C22CC40054A754 /* Page.swift */,
+				A565B11D22C22CCA0054A754 /* Section.swift */,
+				A565B11F22C22CD20054A754 /* Element.swift */,
+				A565B12122C22CDA0054A754 /* Rule.swift */,
+			);
+			path = PetModel;
+			sourceTree = "<group>";
+		};
+		A565B11622C22C280054A754 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A565B0E722C22BA80054A754 /* SuperViewController.swift */,
+				A565B12822C232A90054A754 /* PageOneVC.swift */,
+				A565B12A22C232B60054A754 /* PageTwoVC.swift */,
+				A565B12C22C232BE0054A754 /* PageThreeVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A565B11722C22C370054A754 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A5361D2222C28852006B8090 /* ButtonMethods.swift */,
+				A5361D2422C2E704006B8090 /* ImageViewSetUp.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A565B11822C22C450054A754 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A565B12522C22D7C0054A754 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A565B0EC22C22BAC0054A754 /* Assets.xcassets */,
+				A565B12622C22D970054A754 /* NetworkManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A565B10A22C22BAC0054A754 /* Build configuration list for PBXNativeTarget "Pet-Clinic" */;
 			buildPhases = (
+				B4823D22BED2A3E367D90DAF /* [CP] Check Pods Manifest.lock */,
 				A565B0DE22C22BA80054A754 /* Sources */,
 				A565B0DF22C22BA80054A754 /* Frameworks */,
 				A565B0E022C22BA80054A754 /* Resources */,
+				B568E253CB83465C6816B4B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +267,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A565B10D22C22BAC0054A754 /* Build configuration list for PBXNativeTarget "Pet-ClinicTests" */;
 			buildPhases = (
+				6878C7AE3FF18BDBD701C279 /* [CP] Check Pods Manifest.lock */,
 				A565B0F222C22BAC0054A754 /* Sources */,
 				A565B0F322C22BAC0054A754 /* Frameworks */,
 				A565B0F422C22BAC0054A754 /* Resources */,
@@ -167,6 +286,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A565B11022C22BAC0054A754 /* Build configuration list for PBXNativeTarget "Pet-ClinicUITests" */;
 			buildPhases = (
+				2BC7695EC1AA5CF35E0B388F /* [CP] Check Pods Manifest.lock */,
 				A565B0FD22C22BAC0054A754 /* Sources */,
 				A565B0FE22C22BAC0054A754 /* Frameworks */,
 				A565B0FF22C22BAC0054A754 /* Resources */,
@@ -229,6 +349,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A565B12422C22D030054A754 /* pet_adoption.json in Resources */,
 				A565B0F022C22BAC0054A754 /* LaunchScreen.storyboard in Resources */,
 				A565B0ED22C22BAC0054A754 /* Assets.xcassets in Resources */,
 				A565B0EB22C22BA80054A754 /* Main.storyboard in Resources */,
@@ -251,13 +372,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BC7695EC1AA5CF35E0B388F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pet-ClinicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6878C7AE3FF18BDBD701C279 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pet-ClinicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4823D22BED2A3E367D90DAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pet-Clinic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B568E253CB83465C6816B4B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pet-Clinic/Pods-Pet-Clinic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pet-Clinic/Pods-Pet-Clinic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A565B0DE22C22BA80054A754 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A565B0E822C22BA80054A754 /* ViewController.swift in Sources */,
+				A565B12922C232A90054A754 /* PageOneVC.swift in Sources */,
+				A565B12D22C232BE0054A754 /* PageThreeVC.swift in Sources */,
+				A565B11E22C22CCA0054A754 /* Section.swift in Sources */,
+				A565B11A22C22CB10054A754 /* Pet.swift in Sources */,
+				A5361D2522C2E705006B8090 /* ImageViewSetUp.swift in Sources */,
+				A565B12022C22CD20054A754 /* Element.swift in Sources */,
+				A565B0E822C22BA80054A754 /* SuperViewController.swift in Sources */,
+				A565B12722C22D970054A754 /* NetworkManager.swift in Sources */,
+				A565B12B22C232B60054A754 /* PageTwoVC.swift in Sources */,
+				A565B11C22C22CC40054A754 /* Page.swift in Sources */,
 				A565B0E622C22BA80054A754 /* AppDelegate.swift in Sources */,
+				A5361D2322C28852006B8090 /* ButtonMethods.swift in Sources */,
+				A565B12222C22CDA0054A754 /* Rule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +655,7 @@
 		};
 		A565B10B22C22BAC0054A754 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B6F9454D2B86B4AE3AF3771 /* Pods-Pet-Clinic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +674,7 @@
 		};
 		A565B10C22C22BAC0054A754 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3258CEA2058F4AFE9BA796 /* Pods-Pet-Clinic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +693,7 @@
 		};
 		A565B10E22C22BAC0054A754 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE512A8FC74549B4016071D /* Pods-Pet-ClinicTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +715,7 @@
 		};
 		A565B10F22C22BAC0054A754 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F44D1B9F8C6D7D787537BB9B /* Pods-Pet-ClinicTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +737,7 @@
 		};
 		A565B11122C22BAC0054A754 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5636F7A55E61ABDB602F8DA /* Pods-Pet-ClinicUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +758,7 @@
 		};
 		A565B11222C22BAC0054A754 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C7449F7BC3602FF53CDC83 /* Pods-Pet-ClinicUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
